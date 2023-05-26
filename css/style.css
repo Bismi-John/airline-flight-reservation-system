@@ -1,0 +1,173 @@
+.mcontainer {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+    padding: 0;
+    margin: 0;
+}
+.hero-background {
+    background-image: url("../images/travel9.webp");
+    min-height: 100vh;
+    background-size: cover;
+}
+.home-opacity {
+    opacity: 0.9;
+    background-color: rgb(248, 196, 129);
+    border-radius: 15px 15px 15px 15px;
+    background-image: linear-gradient(
+        to right,
+
+        #e2b96e 0%,
+        #daad4e 51%,
+        #d19336 100%
+    );
+    border: none;
+    transition: 0.5s;
+    background-size: 200% auto;
+}
+.homehead {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+}
+.login-bg {
+    opacity: 0.9;
+    background-color: rgb(248, 196, 129);
+    border-radius: 15px 15px 15px 15px;
+    background-color: rgb(248, 196, 129);
+    border-radius: 15px 15px 15px 15px;
+    background-image: linear-gradient(
+        to right,
+
+        #e2b96e 0%,
+        #daad4e 51%,
+        #d19336 100%
+    );
+    border: none;
+    transition: 0.5s;
+    background-size: 200% auto;
+}
+.login-background {
+    background-image: url("../images/travel9.webp");
+    min-height: 100vh;
+    background-size: cover;
+}
+.reg-bg {
+    opacity: 0.9;
+    background-color: rgb(248, 196, 129);
+    border-radius: 15px 15px 15px 15px;
+    background-image: linear-gradient(
+        to right,
+
+        #e2b96e 0%,
+        #daad4e 51%,
+        #d19336 100%
+    );
+    border: none;
+    transition: 0.5s;
+    background-size: 200% auto;
+}
+
+.font {
+    font-family: papyrus !important;
+    color: rgb(241, 180, 47);
+}
+
+#str {
+    color: hsl(0, 10%, 8%);
+    font-weight: bold;
+}
+.homegradient {
+    background-image: linear-gradient(
+        to right,
+        #676a6d 0%,
+        #eed07c 51%,
+        #e7910e 100%
+    );
+    border: none;
+    transition: 0.5s;
+    background-size: 200% auto;
+}
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url("../images/login.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+}
+
+.card {
+    max-width: 500px;
+    margin: auto;
+    color: black;
+    border-radius: 20 px;
+}
+
+p {
+    margin: 0px;
+}
+
+.container .h8 {
+    font-size: 30px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.btn.btn-primary {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15px;
+    background-image: linear-gradient(
+        to right,
+        #676a6d 0%,
+        #eed07c 51%,
+        #e7910e 100%
+    );
+    border: none;
+    transition: 0.5s;
+    background-size: 200% auto;
+}
+
+.btn.btn.btn-primary:hover {
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
+}
+
+.btn.btn-primary:hover .fas.fa-arrow-right {
+    transform: translate(15px);
+    transition: transform 0.2s ease-in;
+}
+
+.pay-form {
+    color: white;
+    background-color: #707377;
+    border: 2px solid transparent;
+    height: 60px;
+    padding-left: 20px;
+    vertical-align: middle;
+}
+
+.text {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+::placeholder {
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+}
